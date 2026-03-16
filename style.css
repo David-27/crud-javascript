@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(0, 200, 255);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 200, 255);
+    margin: 5vh auto;
+    width: 80%;
+    padding: 20px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+th{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+td{
+    font-weight: 300;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#cadastrarCliente{
+    color: #fff;
+    background-color: rgb(1, 156, 156);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+#btn_edit, #btn_salvar{
+    color: #fff;
+    background-color: rgb(1, 156, 156);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#btn_delete, #btn_cancelar{
+    color: #fff;
+    background-color: rgb(156, 1, 9);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.modal_content{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.modal_form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanho igual */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+input{
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(214, 214, 214);
+}
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD JavaScript</title>
+  </head>
+  <body>
+    <header class="header_principal"><h1>CADASTRO CLIENTES</h1></header>
+
+    <main>
+    <div class="mainTable">
+        <button type="button" id="cadastrarCliente">CADASTRAR</button>
+        <table id="tableCliente">
+            <thead>
+                <tr>
+                    <th>NOME</th>
+                    <th>E-MAIL</th>
+                    <th>TELEFONE</th>
+                    <th>CIDADE</th>
+                    <th>AÇÃO</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Darlene de Jesus</td>
+                    <td>evasergio42699@gmail.com</td>
+                    <td>2309812</td>
+                    <td>Luanda</td>
+                    <td>
+                        <button id="btn_edit">Editar</button>
+                        <button id="btn_delete">Apagar</button>
+                    </td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+
+        <div class="modal">
+            <div class="modal_content">
+                <header class="modal_header">Novo Cliente</header>
+                <form id="form_modal" class="modal_form">
+                    <input
+              type="text"
+              name="name_client"
+              id="new_client"
+              class="modal field"
+              placeholder="NOME DO CLIENTE"
+              required
+            />
+
+             <input
+              type="email"
+              name="email_client"
+              id="new_email"
+              class="modal field"
+              placeholder="EMAIL DO CLIENTE"
+              required
+            />
+
+             <input
+              type="text"
+              name="telefone_client"
+              id="new_telefone"
+              class="modal field"
+              placeholder="TELEFONE DO CLIENTE"
+              required
+            />
+
+            <input
+              type="text"
+              name="cidade_client"
+              id="new_cidade"
+              class="modal field"
+              placeholder="CIDADE DO CLIENTE"
+              required
+            />
+          </form>
+
+          <footer class="modal_footer">
+            <button id="btn_salvar">SALVAR</button>
+            <button id="btn_cancelar">CANELAR</button>
+          </footer>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
