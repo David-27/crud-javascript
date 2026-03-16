@@ -39,7 +39,7 @@
         </table>
     </div>
 
-        <div class="modal">
+        <div class="modal active" id="modal">
             <div class="modal_content">
                 <header class="modal_header">Novo Cliente</header>
                 <form id="form_modal" class="modal_form">
@@ -47,7 +47,6 @@
               type="text"
               name="name_client"
               id="new_client"
-              class="modal field"
               placeholder="NOME DO CLIENTE"
               required
             />
@@ -56,7 +55,6 @@
               type="email"
               name="email_client"
               id="new_email"
-              class="modal field"
               placeholder="EMAIL DO CLIENTE"
               required
             />
@@ -65,7 +63,6 @@
               type="text"
               name="telefone_client"
               id="new_telefone"
-              class="modal field"
               placeholder="TELEFONE DO CLIENTE"
               required
             />
@@ -74,7 +71,6 @@
               type="text"
               name="cidade_client"
               id="new_cidade"
-              class="modal field"
               placeholder="CIDADE DO CLIENTE"
               required
             />
@@ -87,5 +83,6 @@
         </div>
       </div>
     </main>
+    <script src="crud.js"></script>
   </body>
 </html>
