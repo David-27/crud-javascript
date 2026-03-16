@@ -13,3 +13,26 @@ btn_cadastrar.addEventListener("click", () => {
 btn_cancelar.addEventListener("click", () => {
     fecharModal();
 });
+
+//  FUNCIONALIDADES CRUD
+
+//CRIAR
+
+const clienteTemp = {
+    nome: "Clélio David",
+    email:"cleliodavid3@gmail.com",
+    telefone:"+244 923 420 231",
+    cidade:"Sequele"
+}
+
+const criarCliente = (client) => {
+    localStorage.setItem("db_cliente", JSON.stringify(client));
+}
+
+
+
+
+
+
+
+
