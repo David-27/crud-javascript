@@ -120,10 +120,12 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
     
-
-.modal active{
+.modal.active{
     z-index: 1;
     opacity: 1;
 }
