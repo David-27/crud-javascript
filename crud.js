@@ -58,11 +58,8 @@ btn_salvar.addEventListener("click", () =>{
 
 
 
-
-
-
-
-
-const apagarClient = () => {};
+const apagarClient = () => {
+    
+};
 
 const editClient = () => {};
